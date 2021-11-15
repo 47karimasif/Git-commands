@@ -1,0 +1,29 @@
+
+first install git bash
+--------------------
+git config --global user.name Jhon  (set name)
+git config --global user.email johndoe@example.com (set email)
+
+git commands
+---------------------
+git --version (to check version)
+git init  - to initialise repositories
+git status - to check status of file wether untracked, staged or commited
+git add filename ( to stage one file)
+git add . (to stage all file present in the repo)
+git reset filename ( to unstage a particular file)
+git reset (unstage all file)
+git commit -m "message for the changes u made"
+
+---------
+git branch (to check ur current branch)
+git branch -a (to check all the available branch in repo)
+---------
+git push https://github.com/47karimasif/Git-commands.git branchname (i.e branch name)
+---------
+or u can set repo with a specific name kinda origin so no need to always remember it
+git remote add origin https://github.com/47karimasif/Git-commands.git
+---------
+git remote -v (to check the origin url u set using above commands)
+git push origin branchname  (to push ur code to repo)
+git remote set-url origin https://git-repo/new-repository.git (to change the other to any other repo later)
