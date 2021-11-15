@@ -30,3 +30,5 @@ git remote set-url origin https://git-repo/new-repository.git (to change the oth
 
 ----------------------------------------------
 git branch branchname (to create a new branch)
+git checkout branchname (to switch to branch)
+git push origin branchname
