@@ -30,3 +30,5 @@ git remote set-url origin https://git-repo/new-repository.git (to change the oth
 
 ----------------------------------------------
 git merge branchname (to merge to code of other branch)
+----------------------------------------------
+git clone repo-link (to clone a repository)
