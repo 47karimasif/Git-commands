@@ -1,0 +1,3 @@
+right click -> open with git bash -> code .
+open in file explorer -> just type cmd above and enter it will open in command prompt - >type code .
+add by selecting from file menu
